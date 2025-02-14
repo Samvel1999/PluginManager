@@ -1,0 +1,12 @@
+{
+  "Plugins": [
+    {
+      "Name": "Resize",
+      "Dll": "ResizePlugin.dll"
+    },
+    {
+      "Name": "Blur",
+      "Dll": "BlurPlugin.dll"
+    }
+  ]
+}

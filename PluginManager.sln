@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35707.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ResizePlugin", "ResizeEffect\ResizePlugin.csproj", "{78B533C6-D08C-49D3-B487-854F230445EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasePlugin", "ImageEffect\BasePlugin.csproj", "{9F644834-182B-4524-A7EF-8B3E16A7E031}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlurPlugin", "BlurEffect\BlurPlugin.csproj", "{48C4F1C5-FCDC-4307-92AB-E90F2A4D4A56}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PluginManager", "PluginManager\PluginManager.csproj", "{AAC33300-B02F-4B3F-B1CB-B1769BF6443B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{78B533C6-D08C-49D3-B487-854F230445EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78B533C6-D08C-49D3-B487-854F230445EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78B533C6-D08C-49D3-B487-854F230445EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78B533C6-D08C-49D3-B487-854F230445EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F644834-182B-4524-A7EF-8B3E16A7E031}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F644834-182B-4524-A7EF-8B3E16A7E031}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F644834-182B-4524-A7EF-8B3E16A7E031}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F644834-182B-4524-A7EF-8B3E16A7E031}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48C4F1C5-FCDC-4307-92AB-E90F2A4D4A56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48C4F1C5-FCDC-4307-92AB-E90F2A4D4A56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48C4F1C5-FCDC-4307-92AB-E90F2A4D4A56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48C4F1C5-FCDC-4307-92AB-E90F2A4D4A56}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AAC33300-B02F-4B3F-B1CB-B1769BF6443B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAC33300-B02F-4B3F-B1CB-B1769BF6443B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAC33300-B02F-4B3F-B1CB-B1769BF6443B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAC33300-B02F-4B3F-B1CB-B1769BF6443B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
